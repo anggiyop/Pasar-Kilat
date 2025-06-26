@@ -1,17 +1,44 @@
-# pasar_kilat
+# Pasar Kilat - Aplikasi E-commerce dengan Flutter
 
-A new Flutter project.
+Selamat datang di repositori Pasar Kilat! Ini adalah proyek aplikasi e-commerce fungsional yang dibangun sepenuhnya menggunakan Flutter sebagai portofolio untuk mendemonstrasikan keahlian dalam pengembangan aplikasi mobile.
 
-## Getting Started
+![Screenshot Aplikasi](screenshots/home_page.png) 
+*(Ganti dengan path screenshot Anda nanti)*
 
-This project is a starting point for a Flutter application.
+## ✨ Fitur Utama
+- **Otentikasi Pengguna:** Sistem registrasi dan login.
+- **Beranda Dinamis:** Menampilkan banner, kategori, dan produk.
+- **Keranjang Belanja:** Pengguna dapat mengelola item di keranjang.
+- **Alur Checkout:** Proses checkout sederhana.
+- **Riwayat Pesanan:** Melihat riwayat transaksi.
+- **Splash Screen & Ikon Kustom:** Branding aplikasi yang konsisten.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Teknologi & Arsitektur
+- **Framework:** Flutter
+- **Bahasa:** Dart
+- **Arsitektur:** Clean Architecture (Presentation, Data, Core)
+- **State Management:** *[Isi dengan yang Anda gunakan, misal: Provider/Riverpod]*
+- **Backend:** Firebase (Firestore, Authentication, Storage)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Instalasi & Penyiapan
+Untuk menjalankan proyek ini di lingkungan lokal Anda:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# Pasar-Kilat" 
+1.  **Clone Repositori:**
+    ```bash
+    git clone [https://github.com/anggiygp/Pasar-Kilat.git](https://github.com/anggiygp/Pasar-Kilat.git)
+    cd Pasar-Kilat
+    ```
+2.  **Setup Firebase:**
+    * Buat proyek baru di Firebase Console.
+    * Konfigurasikan untuk Android & iOS menggunakan `flutterfire_cli`.
+    * Aktifkan **Authentication**, **Firestore**, dan **Storage**.
+3.  **Jalankan Aplikasi:**
+    ```bash
+    flutter pub get
+    flutter run
+    ```
+
+## 🎯 Rencana Pengembangan
+- [ ] Implementasi fitur pencarian produk.
+- [ ] Penambahan filter dan sortasi.
+- [ ] Halaman ulasan dan rating produk.
