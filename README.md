@@ -2,9 +2,6 @@
 
 Selamat datang di repositori Pasar Kilat! Ini adalah proyek aplikasi e-commerce fungsional yang dibangun sepenuhnya menggunakan Flutter sebagai portofolio untuk mendemonstrasikan keahlian dalam pengembangan aplikasi mobile.
 
-![Screenshot Aplikasi](screenshots/home_page.png) 
-*(Ganti dengan path screenshot Anda nanti)*
-
 ## ✨ Fitur Utama
 - **Otentikasi Pengguna:** Sistem registrasi dan login.
 - **Beranda Dinamis:** Menampilkan banner, kategori, dan produk.
